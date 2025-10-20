@@ -1,0 +1,78 @@
+# -------------------------
+# General
+# -------------------------
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# -------------------------
+# Entornos y configuración
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Dependencias
+# -------------------------
+node_modules/
+vendor/
+
+# -------------------------
+# Compilados y binarios
+# -------------------------
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+bin/
+dist/
+build/
+
+# -------------------------
+# Bases de datos / almacenamiento
+# -------------------------
+cockroach-data/
+cockroach-data-local/
+data/
+
+# -------------------------
+# Docker
+# -------------------------
+docker-compose.override.yml
+*.pid
+*.sock
+
+# -------------------------
+# Frontend (Vite / React)
+# -------------------------
+.vite/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# -------------------------
+# Tests
+# -------------------------
+/coverage/
+jest-cache/
+.vscode-test/
+
+# -------------------------
+# IDEs y editores
+# -------------------------
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# -------------------------
+# Otros
+# -------------------------
+*.zip
+*.tar
+*.gz
